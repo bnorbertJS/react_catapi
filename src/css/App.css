@@ -9,17 +9,43 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: calc(100vh - 2em);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 2em;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.primary{
+  background-color: #61b;
+  color: whitesmoke;
+  padding: 1rem;
+  border: none;
+}
+
+.secondary{
+  background-color: #ee61fb;
+  color: whitesmoke;
+  padding: 1rem;
+  border: none;
+}
+
+.cat-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+
+.cat-item{
+  margin: 3px;
 }
 
 @keyframes App-logo-spin {
